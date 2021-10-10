@@ -33,6 +33,7 @@
     <java.version>1.8</java.version>
   </properties>
 
+
   <dependencies>
     <!-- Management API -->
     <dependency>
@@ -74,7 +75,7 @@
     </dependency>
 
     <!-- REST API Documentation: Swagger Libraries -->
-    <dependency>
+    <!-- <dependency>
       <groupId>io.springfox</groupId>
       <artifactId>springfox-swagger-ui</artifactId>
       <version>${swagger.version}</version>
@@ -89,6 +90,12 @@
       <artifactId>springfox-spring-webflux</artifactId>
       <version>${swagger.version}</version>
     </dependency>
+     -->
+    <!-- <dependency>
+        <groupId>io.springfox</groupId>
+        <artifactId>springfox-boot-starter</artifactId>
+        <version>3.0.0-SNAPSHOT</version>
+    </dependency> -->
 
     <!-- Centralized Logging -->
     <dependency>
